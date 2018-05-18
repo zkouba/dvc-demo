@@ -9,9 +9,8 @@ https://blog.dataversioncontrol.com/data-version-control-tutorial-9146715eda46
   wget -P data $S3_DIR/100K/Posts.xml.tgz
   ```
 
-*   Run DVC reproduce command
+* Run DVC reproduce command
 
   ```bash
   dvc repro
   ```
-
