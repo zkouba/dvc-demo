@@ -1,0 +1,15 @@
+cmd: python code/evaluate.py
+deps:
+- md5: 2bf00908d0789248049f1aeac7f75590
+  path: data/model.p
+- md5: 009f800341d2631a9525040d659220d2
+  path: data/matrix-test.p
+- md5: fa355e4d05408776bbfca2c144a1d560
+  path: code/evaluate.py
+- md5: 17f591c0c65a450fd53b34ba0ac6df7b
+  path: code/conf.py
+md5: 22c6541cb91222db7816eee354dcbecd
+outs:
+- cache: true
+  md5: 406a093993381509e921bcb213d0a502
+  path: data/eval.txt
